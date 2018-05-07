@@ -10,7 +10,9 @@ function createTodo() {
   var itemSection = document.createElement('section')
   var itemLi = document.createElement('li')
   var itemCheckbox = document.createElement('input')
+  itemSection.setAttribute('class', 'todo-section');
   itemCheckbox.setAttribute('type', 'checkbox');
+  itemCheckbox.setAttribute('class', 'todo-checkbox');
   list.appendChild(itemSection)
   itemSection.appendChild(itemCheckbox)
   itemSection.appendChild(itemLi)
@@ -24,3 +26,7 @@ todoText.addEventListener('keyup', function(event){
     createTodo()
   }
 })
+
+function jsLoad() {
+  document.body.style.visibility='visible'
+}

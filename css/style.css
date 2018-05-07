@@ -1,0 +1,20 @@
+html {
+  color: rgb(240, 240, 240);
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+}
+
+#todo-list {
+  width: 30vw;
+  margin: 2rem auto;
+  list-style-type: none;
+}
+
+.todo-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-checkbox {
+  margin-right: .5rem;
+}
