@@ -1,5 +1,3 @@
-console.log('hello')
-
 var todoText = document.getElementById('todo-text')
 var todoAdd = document.getElementById('todo-add')
 

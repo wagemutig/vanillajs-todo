@@ -8,9 +8,10 @@
 </head>
 <body style="visibility: hidden;" onload="jsLoad()">
   <h1>VanillaJS To Do</h1>
-
-      <input id="todo-text" type="text" name="todo-text" value="">
-      <button id="todo-add" type="button" onclick="createTodo()" name="todo-button">+</button>
+    <form action="/" method="post">
+      <input id="todo-text" type="text" name="todoText" value="">
+      <button id="todo-add" type="submit" name="todo-button">+</button>
+    </form>
 
   <section>
     <ul id="todo-list">
