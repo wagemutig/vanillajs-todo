@@ -6,10 +6,12 @@
 
  <section>
    <ul id="todo-list">
-     {{#each todos}}
-       <li>
-         <p>{{{ this.text }}}</p>
-       </li>
-     {{/each}} 
-   </ul>
+     {{#if todos}}
+       {{#each todos}}
+         <li>
+           <p>{{{ this.text }}}</p>
+         </li>
+       {{/each}} 
+    {{/if}}
+  </ul>
  </section>

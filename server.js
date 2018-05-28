@@ -38,7 +38,6 @@ app.get('/', function(req, res) {
 app.post('/', function(req, res) {
   todo = new Todo
   todo.text = req.body.todoText
-  console.log(todo.text)
   todo.save(function(err) {})
 
   res.redirect('/')
