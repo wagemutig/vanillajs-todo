@@ -1,4 +1,4 @@
-var todoText = document.getElementById('todoText')
+var todoText = document.getElementById('todo-input')
 var todoAdd = document.getElementById('todo-add')
 
 function createTodo() {
