@@ -9,6 +9,10 @@
      {{#if todos}}
        {{#each todos}}
          <li>
+           <label class="checkbox-container">
+           <input id="todo-checkbox" type="checkbox" name="todoCheck">
+           <span class="todo-checkmark"></span>
+           </label>
            <p>{{{ this.text }}}</p>
          </li>
        {{/each}} 
